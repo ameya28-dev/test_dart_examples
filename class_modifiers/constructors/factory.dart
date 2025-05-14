@@ -1,5 +1,3 @@
-import '../classes/implements.dart';
-
 class Logger {
   final String name;
   bool mute = false;
