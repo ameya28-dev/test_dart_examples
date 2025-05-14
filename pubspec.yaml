@@ -1,0 +1,10 @@
+name: test_dart_example
+
+environment:
+  sdk: '^3.4.0'
+
+
+dependencies:
+  fpdart: ^1.1.1
+
+dev_dependencies:
