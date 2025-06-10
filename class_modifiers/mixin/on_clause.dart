@@ -33,4 +33,5 @@ void main() {
   Dancer().performerMethod();
 
   final dancer = Dancer();
+  dancer.performerMethod();
 }
