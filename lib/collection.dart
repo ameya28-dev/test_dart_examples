@@ -7,7 +7,7 @@ class Father extends Person {
   Father({required super.name, required super.age, required this.kids});
 
   @override
-  List<Object?> get props => [name, age, kids];
+  List<Object?> get props => [...super.props, kids];
 }
 
 class Person extends Equatable {
@@ -28,4 +28,5 @@ void main() {
   print(deepCollectionEquality.equals(f1, f2));
   print(f1.kids == f2.kids);
   print(deepCollectionEquality.equals(f1.kids, f2.kids));
+  print(f1.props);
 }
